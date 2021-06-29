@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0" charset="utf-8">
+  <title>Employee Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="" alt=""></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="login.html">LOGIN</a></li>
+
+        </ul>
+      </div>
+
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Employee Database Management </h1>
+      <p>Employees are the pillar of any organization and an ideal employee management<br /> tool makes a big difference to an organization.</p>
+      <a href="" class="hero-btn">Visit Us To Know More</a>
+
+    </div>
+  </section>
+  <!----------Course------------>
+  <section class="course">
+    <a name="about">
+    <div id="about">
+    </div>
+    </a>
+    <h1>About Us</h1>
+    <p>
+      An employee management system is a platform where all work-related as well as important personal details
+      of an employee is stored and managed in a secure way.
+      By using this system, you can manage admin activities in an easier and quicker way.
+    </p>
+    <div class="row">
+      <div class="course-col">
+        <img src="Good Design Vs_ Good UX Design.png" />
+        <h3>Save More Time</h3>
+        <p>Our HR software solution offers an intelligent
+          module that keeps you organized all the time by
+          providing all data of employees at your fingertips.
+          By using Pocket HRMS, you can access the information
+          related to your staff while you are traveling, through our cloud storage.
+          Your HR department now does not need to crawl through multiple files and
+          spreadsheets to get the information of an employee thereby saving a
+          substantial amount of time at their end. You can therefore, invest
+          these saved hours in other developments.</p>
+      </div>
+      <div class="course-col">
+        <img src="ddd.png" />
+        <h3>Ease your decision-making</h3>
+        <p>By accessing employee management system, you can either customize
+          or create your own metrics or also avail the standard metric system
+          to have an upper-view of entire employee management. Also, you can
+          motivate and support your staff with an analytically driven metric
+          system. With its timesheet management and time tracking software,
+          it becomes easier to decision-making and no more errors are committed
+          thereafter.</p>
+
+      </div>
+      <div class="course-col">
+        <img src="Hand Drawn Cute Girl Work From Home, Girl, Work From Home, Free Lancing PNG Transparent Clipart Image and PSD File for Free Download.jpg" />
+        <h3>On-time, swift payroll</h3>
+        <p>Performing payroll was never a piece of cake for the HR team.
+          Moreover, paying them correctly and on time is another major
+          challenge and very important as well. Our employee salary management
+          software helps you with this critical task and makes payroll
+          computation easy.Employee management system helps you pay your employees on time
+          without pushing you into any unwanted legal matters</p>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!---Javascript for Toggle Menu--->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+
+</body>
+
+</html>
